@@ -1,0 +1,32 @@
+div {
+    height: 100%;
+    text-align: center;
+}
+.background {
+    background-color: #3f3697;
+}
+
+h1{
+    margin-top: 0px;
+}
+
+h1, h2{
+    color: white;
+}
+
+button {
+    display: inline-block;
+    padding:0.35em 1.2em ;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    font-family:'Roboto',sans-serif;
+    color:black;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.2s;
+
+
+}

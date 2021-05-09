@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React, { useState} from "react";
+import { BrowserRouter } from "react-router-dom";
+import "./App.css";
+import Home from "./components/Home";
+import Backdrop from "./containers/Backdrop";
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const [showBackdrop, setShowBackDrop] = useState(false);
+
+  const toggleBackdrop = (value) => {
+    setShowBackDrop(value);
+  };
+
+ /*  const removeBackdrop = (value) => {
+    setShowBackDrop(value);
+  } */
+
+  if (showBackdrop) {
+    return (
+      <BrowserRouter>
+        <Backdrop/>
+      </BrowserRouter>
+    );
+  } else {
+    return <Home toggleBack={toggleBackdrop}></Home>;
+  }
 }
 
 export default App;
