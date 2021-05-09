@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/maket-ui/static/css/main.1570505e.chunk.css",
+    "main.js": "/maket-ui/static/js/main.e205a81d.chunk.js",
+    "main.js.map": "/maket-ui/static/js/main.e205a81d.chunk.js.map",
+    "runtime-main.js": "/maket-ui/static/js/runtime-main.f2452f8d.js",
+    "runtime-main.js.map": "/maket-ui/static/js/runtime-main.f2452f8d.js.map",
+    "static/js/2.733e0e08.chunk.js": "/maket-ui/static/js/2.733e0e08.chunk.js",
+    "static/js/2.733e0e08.chunk.js.map": "/maket-ui/static/js/2.733e0e08.chunk.js.map",
+    "static/js/3.36ad30ac.chunk.js": "/maket-ui/static/js/3.36ad30ac.chunk.js",
+    "static/js/3.36ad30ac.chunk.js.map": "/maket-ui/static/js/3.36ad30ac.chunk.js.map",
+    "index.html": "/maket-ui/index.html",
+    "static/css/main.1570505e.chunk.css.map": "/maket-ui/static/css/main.1570505e.chunk.css.map",
+    "static/js/2.733e0e08.chunk.js.LICENSE.txt": "/maket-ui/static/js/2.733e0e08.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f2452f8d.js",
+    "static/js/2.733e0e08.chunk.js",
+    "static/css/main.1570505e.chunk.css",
+    "static/js/main.e205a81d.chunk.js"
+  ]
+}
