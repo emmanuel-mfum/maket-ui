@@ -17,6 +17,8 @@ I did the correct imports, but the slider doesn't appear for some reason.
 
 The source is on the "master" branch and the "gh-pages" branch holds the built app code.
 
+The project is deployed on Github Pages and is accessible here : https://emmanuel-mfum.github.io/maket-ui/
+
 
 
 
